@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/home-bg.gif";
 import Particle from "../Particle";
 import Type from "./Type";
 
@@ -29,7 +29,7 @@ function TopPart() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingLeft:'10%'}}>
               <img
                 src={homeLogo}
                 alt="home pic"

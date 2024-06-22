@@ -7,14 +7,14 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.578),
-    rgba(12, 10, 22, 0.663)
+    rgba(17, 16, 16, 0.5),
+    rgba(12, 10, 22, 0.6)
   );
   --imp-text-color: #f0e770;
 }
 *{
   font-family: Gotham !important;
-  cursor: grab;
+  cursor: url("/Users/naveenm/Coding/Portfolio-master/src/Assets/about.png"),grab;
 }
 .purple {
   color: var(--imp-text-color) !important;
@@ -274,7 +274,8 @@ a:hover{
   background-image: var(--image-gradient);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 22vh !important;
+  background-blend-mode: color-burn;
+  padding-bottom: 30vh !important;
   padding-top: 30px !important;
 }
 
@@ -393,7 +394,6 @@ a:hover{
 
 .home-about-social-links {
   justify-content: center !important;
-  padding-top: 15px !important;
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
@@ -435,6 +435,9 @@ a:hover{
   color: #87209e;
   box-shadow: 0 0 10px #ffd500;
   text-shadow: 0 0 2px #ccd30b;
+}
+.home-about-social p{
+  text-shadow: 1px 1px 1px black;
 }
 
 .social-icons {
