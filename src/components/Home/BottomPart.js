@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/bg.jpg";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -13,7 +11,7 @@ function BottomPart() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col className="home-about-description">
             <h1 className="text-shadow" style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -51,12 +49,8 @@ function BottomPart() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt className="myAvtar-tilt-div">
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social text-shadow">
             <h1>FIND ME ON</h1>
