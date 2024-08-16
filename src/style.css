@@ -14,7 +14,7 @@ html {
 }
 *{
   font-family: Gotham !important;
-  cursor: url("/Users/naveenm/Coding/Portfolio-master/src/Assets/about.png"),grab;
+  cursor: url("/Assets/about.png"),grab;
 }
 .purple {
   color: var(--imp-text-color) !important;
