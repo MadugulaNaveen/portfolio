@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MadugulaNaveen/portfolio.git/static/css/main.806e6de1.css",
+    "main.js": "/MadugulaNaveen/portfolio.git/static/js/main.342721b9.js",
+    "static/js/415.4d6acbeb.chunk.js": "/MadugulaNaveen/portfolio.git/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/MadugulaNaveen/portfolio.git/static/js/787.1ed0c42c.chunk.js",
+    "static/media/home-bg.gif": "/MadugulaNaveen/portfolio.git/static/media/home-bg.7f299d8c3c3fecc55259.gif",
+    "static/media/bgVideo.gif": "/MadugulaNaveen/portfolio.git/static/media/bgVideo.465ce476c9b8ae5c25c5.gif",
+    "static/media/codeEditor.png": "/MadugulaNaveen/portfolio.git/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/MadugulaNaveen/portfolio.git/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/about.png": "/MadugulaNaveen/portfolio.git/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Resume_Updated.pdf": "/MadugulaNaveen/portfolio.git/static/media/Resume_Updated.af55d35b4a1533558f00.pdf",
+    "static/media/chatify.png": "/MadugulaNaveen/portfolio.git/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/back.jpg": "/MadugulaNaveen/portfolio.git/static/media/back.76c14c64e536478705f3.jpg",
+    "static/media/pre.svg": "/MadugulaNaveen/portfolio.git/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/MadugulaNaveen/portfolio.git/index.html",
+    "main.806e6de1.css.map": "/MadugulaNaveen/portfolio.git/static/css/main.806e6de1.css.map",
+    "main.342721b9.js.map": "/MadugulaNaveen/portfolio.git/static/js/main.342721b9.js.map",
+    "415.4d6acbeb.chunk.js.map": "/MadugulaNaveen/portfolio.git/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/MadugulaNaveen/portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.806e6de1.css",
+    "static/js/main.342721b9.js"
+  ]
+}
