@@ -14,7 +14,7 @@ html {
 }
 *{
   font-family: Gotham !important;
-  cursor: url("/Assets/about.png"),grab;
+  cursor: grab;
 }
 .purple {
   color: var(--imp-text-color) !important;
