@@ -93,6 +93,7 @@ a:hover{
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  width: 100vw !important;
 }
 
 .navbar-toggler {
@@ -259,42 +260,42 @@ a:hover{
   position: fixed !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  width: 100%;
+  width: 100vw;
   height: 100%;
 }
 
 .home-header {
   padding-top: 80px !important;
 }
+.home{
+  overflow: hidden;
+  position: relative;
+}
+
 
 .home-section {
   position: relative;
   z-index: 5;
-  height:fit-content;
-  background-image: var(--image-gradient);
-  background-position: top center;
+  height: 100vh;
   background-repeat: no-repeat;
   background-blend-mode: color-burn;
-  padding-bottom: 30vh !important;
-  padding-top: 30px !important;
+  display: grid;
+  place-content: center;
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
   color: whitesmoke;
-  text-align: left;
+  text-align: center;
 }
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
 }
 
 .heading-name {
   font-size: 4em !important;
   font-family: Gotham;
   z-index: 1;
-  padding-left: 45px !important;
 }
 
 .main-name {
@@ -303,14 +304,22 @@ a:hover{
   text-shadow: 0 0 15px #f8d95f;
 }
 
-.Typewriter__wrapper {
+.typeWriter{
   font-size: 2.2em !important;
+  color: #ffffff !important;
+  text-shadow: 0 0 10px #fff;
+  font-weight: 600 !important;
+  display: grid;
+  place-content: center;
+}
+.Typewriter__wrapper {
+  font-size: 1em !important;
   color: #ffffff !important;
   text-shadow: 0 0 10px #fff;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
+  font-size: 1.3em !important;
   color: #b562d6 !important;
 }
 
@@ -323,7 +332,6 @@ a:hover{
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
   }
   .Typewriter__cursor {
     display: none !important;
@@ -331,6 +339,19 @@ a:hover{
   .myAvtar-tilt-div{
     position: relative;
     top: 0;
+  }
+  .heading-name{
+    font-size: 2rem !important;
+  }
+  .heading {
+    font-size: 1.8em !important;
+  }
+  .typeWriter{
+    font-size: 1.2em !important;
+    margin-bottom: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -354,6 +375,9 @@ a:hover{
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
+  .home-content{
+    padding: 2rem 0 2rem !important;
+  }
 }
 
 .home-about-section {
@@ -364,8 +388,6 @@ a:hover{
 
 .home-about-description {
   color: rgb(255, 255, 255) !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
   align-content: center;
   align-items: center;
   text-align: center;
@@ -376,9 +398,7 @@ a:hover{
 }
 
 .home-about-body {
-  padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
   padding: 2em;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 16px;
@@ -500,7 +520,7 @@ a:hover{
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -601,7 +621,7 @@ a:hover{
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -675,14 +695,14 @@ a:hover{
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  width: 80vw;
   color: white !important;
 }
 
 .resume {
-  padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
 }

@@ -1,35 +1,31 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import { ImStarFull } from "react-icons/im";
+import { Container, Row, Col } from "react-bootstrap";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Naveen Madugula </span>
-            from <span className="purple"> Visakhapatnam, India.</span>
-            <br />
-            I am currently a final year student at <a href="https://www.gvpce.ac.in/" target="_blank" rel="noreferrer">Gayatri Vidya Parishad College Of Engineering</a>
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-            <ImStarFull /> Calisthenics
-            </li>
-            <li className="about-activity">
-            <ImStarFull /> Video Editing
-            </li>
-            <li className="about-activity">
-              <ImStarFull /> Documenting
-            </li>
-          </ul>
-
-        </blockquote>
-      </Card.Body>
-    </Card>
+    <Container fluid className="home-about-section" id="about">
+      <Container>
+        <Row>
+          <Col className="home-about-description">
+            <p className="home-about-body">
+              I can say myself to be a 🤷‍♂️
+              <br/>
+              <i>
+                <b className="purple">Jack Of All Trades but Master of None but sometimes better than the Master of One.</b>
+              </i>
+              <br />
+              My field of Interests are of wide range starting with 
+              <br />
+              <i>
+                <b className="purple"> Development,Video Editing, Content Creation, Calisthenics </b> 
+              </i>
+              <br />
+              <b> I keep on doing some random things at random hours not knowing what to do.</b>
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
   );
 }
 
