@@ -8,7 +8,7 @@ html {
   --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.5),
-    rgba(12, 10, 22, 0.6)
+    rgba(113, 134, 55, 0.6)
   );
   --imp-text-color: #f0e770;
 }
@@ -268,8 +268,7 @@ a:hover{
   padding-top: 80px !important;
 }
 .home{
-  overflow: hidden;
-  position: relative;
+  background-color: var(--image-gradient);
 }
 
 
@@ -497,6 +496,9 @@ a:hover{
 
   .footer-body {
     text-align: center !important;
+  }
+  .home-about-body{
+    font-size: 0.9em !important;
   }
 }
 
