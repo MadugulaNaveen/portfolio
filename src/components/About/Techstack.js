@@ -25,55 +25,55 @@ function Techstack() {
         <h2 className="tech-heading">
            <strong className="purple">Languages</strong>
         </h2>
-      <Col xs={4} md={2}className="tech-icons">
+      <div className="tech-icons">
         <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aspectRatio={1}>
+      </div>
+      <div className="tech-icons" aspectRatio={1}>
         <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aspectRatio={1}>
+      </div>
+      <div className="tech-icons" aspectRatio={1}>
         <DiPython />
-      </Col>
+      </div>
     </Row>
     <Row>
       <h2 className="tech-heading">
             <strong>Web-Stack</strong>
       </h2>
-      <Col xs={4} md={2} className="tech-icons">
+      <div className="tech-icons">
         <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <DiCss3 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <DiDjango />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <DiGit />
-      </Col>
+      </div>
       </Row>
     <Row >
       <h2 className="tech-heading">
             <strong className="purple">Databases</strong>
       </h2>
-      <Col xs={4} md={2} className="tech-icons">
+      <div  className="tech-icons">
         <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <DiMongodb />
-      </Col>
+      </div>
     </Row>
     </>
   );

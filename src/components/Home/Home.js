@@ -3,9 +3,9 @@ import TopPart from "./TopPart";
 
 function Home() {
   return (
-    <div className="home">
-      <TopPart />
-    </div>
+      <div className="home">
+        <TopPart />
+      </div>
   );
 }
 

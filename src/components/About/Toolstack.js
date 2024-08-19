@@ -13,24 +13,24 @@ import { DiGithub } from "react-icons/di";
 function Toolstack() {
   return (
     <Row style={{paddingBottom: "50px" }}>
-      <Col xs={3} md={1} className="tech-icons">
+      <div className="tech-icons">
         <SiMacos />
-      </Col>
-      <Col xs={3} md={1} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiVisualstudiocode />
-      </Col>
-      <Col xs={3} md={1} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <SiNotion />
-      </Col>
-      <Col xs={3} md={1} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <DiGithub />
-      </Col>
-      <Col xs={3} md={1} className="tech-icons">
+      </div>
+      <div  className="tech-icons">
         <SiVercel />
-      </Col>
-      <Col xs={3} md={1} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiPostman />
-      </Col>
+      </div>
     </Row>
   );
 }

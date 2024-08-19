@@ -397,6 +397,7 @@ a:hover{
 }
 
 .home-about-body {
+  text-align: left;
   font-size: 1.2em !important;
   padding: 2em;
   background: rgba(0, 0, 0, 0.6);
@@ -657,6 +658,7 @@ a:hover{
 }
 @media (max-width: 767px) {
   .tech-icons {
+    font-size: 3em !important;
     margin: 10px !important;
   }
 }
@@ -726,6 +728,9 @@ a:hover{
   .resume-right {
     padding-right: 15px !important;
     padding-left: 15px !important;
+  }
+  .skillContainer{
+    width: 100%;
   }
 }
 .resume .resume-title {
@@ -849,7 +854,6 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 15px !important;
 }
 
 .cardTitle{
