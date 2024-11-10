@@ -48,7 +48,6 @@ function About() {
           </h2>
           <Toolstack />
       </Container>  
-      <Particle value={200}/>
     </Container>
   );
 }

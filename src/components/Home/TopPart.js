@@ -7,7 +7,6 @@ import Type from "./Type";
 function TopPart() {
   return (
       <Container fluid className="home-section" id="home">
-        <Particle value={1500}/>
         <Container className="home-content">
           <Row>
               <h1 style={{ paddingBottom: 15 }} className="heading">
